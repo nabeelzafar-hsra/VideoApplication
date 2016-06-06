@@ -97,12 +97,10 @@
 		D4CCCA701D057D0600543D74 /* VideoApplication */ = {
 			isa = PBXGroup;
 			children = (
-				D4CCCA711D057D0600543D74 /* AppDelegate.swift */,
-				D4CCCA731D057D0600543D74 /* ViewController.swift */,
-				D4CCCA751D057D0600543D74 /* Main.storyboard */,
-				D4CCCA781D057D0600543D74 /* Assets.xcassets */,
-				D4CCCA7A1D057D0600543D74 /* LaunchScreen.storyboard */,
-				D4CCCA7D1D057D0600543D74 /* Info.plist */,
+				D4CCCA9F1D05806700543D74 /* Supporting Files */,
+				D4CCCAA11D05808400543D74 /* Model */,
+				D4CCCAA21D05808A00543D74 /* View */,
+				D4CCCAA01D05807800543D74 /* Controller */,
 			);
 			path = VideoApplication;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				D4CCCA931D057D0600543D74 /* Info.plist */,
 			);
 			path = VideoApplicationUITests;
+			sourceTree = "<group>";
+		};
+		D4CCCA9F1D05806700543D74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CCCA711D057D0600543D74 /* AppDelegate.swift */,
+				D4CCCA7D1D057D0600543D74 /* Info.plist */,
+				D4CCCA781D057D0600543D74 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4CCCAA01D05807800543D74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4CCCA731D057D0600543D74 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D4CCCAA11D05808400543D74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D4CCCAA21D05808A00543D74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4CCCA7A1D057D0600543D74 /* LaunchScreen.storyboard */,
+				D4CCCA751D057D0600543D74 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
